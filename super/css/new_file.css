@@ -1,0 +1,311 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 62.5%;
+}
+/*header样式*/
+#header {
+	height:4rem;
+	background: #669ACC;
+	text-align: center;
+	border-bottom: solid 1px white;
+	padding: 4% 0 0 0;
+}
+#header .top {
+	color: blank;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#header .bot {
+	color: blank;
+	font-size: 0.6rem;
+	padding-top: 2%;
+	font-weight: 200;
+} 
+
+/*main样式*/
+#main {
+	display: flex;
+}
+
+/*选择图片样式*/
+
+#main-left {
+	width: 40%;
+}
+#main-top {
+	height: 12rem;
+	border: 1px dashed black;
+	text-align: center;
+    padding: 0.3rem;
+}
+#header-img {
+	width: 100%;
+    border-radius: 50%;
+	
+}
+.error-info {
+	color: rgb(218, 106, 64);
+    margin: 0;
+    padding: 5px;
+    display: none;
+}
+ #upload-btn {
+    padding: 0.2rem 0.5rem;
+    color: rgb(191, 193, 175);
+    border: 1px dotted rgb(191, 193, 175);
+    cursor: pointer;
+    font-size: 0.2rem;
+    color: black;
+}
+#upload-btn:hover {
+    background-color: rgb(100, 134, 107);
+ }
+
+
+
+#main-right {
+	width: 60%;
+}
+#main #id {
+	height: 4.5rem;
+	box-sizing: border-box;
+}
+#main #id #id-top {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-top: 3%;
+	padding-left: 3%;
+}
+#main #id #id-bot {
+	height: 4rem;
+	padding-left: 3%;
+}
+#main #id #id-bot .id-i {
+	font-size: 1.2rem;
+	border: solid 1px black;
+}
+
+
+/*昵称部分*/
+#main #fname {
+	height: 4rem;
+}
+#main #fname .fname-p {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+}
+#main #fname .fname-i{
+	height: 3rem;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 2%;
+}
+
+#main #fname .fname-in {
+	height: 1.5rem;
+	font-size: 1.2rem;
+	border:none;
+}
+#main #fname .fname-inp {
+	height: 30px;
+	font-size: 0.6rem;
+}
+#qq {
+	display: flex;
+	border: solid 1px black;
+	height: 1.5rem;
+}
+#qq img {
+	width: 1.2rem;
+	height: 1.2rem;
+}
+/*姓名部分*/
+#name {
+	height: 4rem;
+}
+#name #name-top {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+}
+#name #name-bot {
+	margin: 0 3%;
+	height: 1.5rem;
+	border: solid 1px black;
+}
+#name #name-bot input {
+	font-size: 1.2rem;
+	border: none;
+}
+
+
+
+/*性别*/
+
+#sex {
+	height: 4rem;
+	padding-top: 2%;
+}
+#sex-top {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+}
+#sex-bot {
+	display: flex;
+	font-size: 1rem;
+	justify-content: space-around;
+}
+
+
+/*生日*/
+#bir {
+	height: 4rem;
+}
+#bir-p {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+}
+#bir-bot {
+	margin: 0 3%;
+	height: 1.5rem;
+	border: solid 1px black;
+}
+
+#bir-bot input {
+	border: none;
+	width: 93%;
+}
+
+/*手机*/
+#call {
+	height: 4rem;
+}
+#call-p {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+	margin-top: 2%;
+}
+#call-bot {
+	border: solid 1px black;
+	margin: 0 3% 0 3%;
+}
+#call-bot input {
+	height: 1.5rem;
+	border:none;
+	width: 93%;
+}
+
+#bu {
+	margin-top: 3%;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	margin: 3%;
+	border-bottom: solid 1px black;
+	padding-bottom: 3%;
+}
+
+
+/*血型*/
+#blood {
+	height: 6rem;
+	
+}
+#blood-p {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;	
+}
+#blood-bot {
+	display: flex;
+	font-size: 1rem;
+	justify-content: space-around;
+	margin-bottom: 3%;
+}
+
+
+/*居住地*/
+#home {
+	height: 4rem;
+
+}
+#home-p {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+}
+#home-i {
+	padding: 0 3%;
+}
+#home-i input{
+	width: 99%;
+	border: solid 1px black;
+	font-size: 1.2rem;
+}
+
+#papers {
+	height: 4rem;
+	
+}
+#papers #style {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+}
+
+#showBank{
+	width: 93%;
+	margin-left: 3%;
+	border: solid 1px black;
+	font-size: 1.2rem;
+}
+
+#call-i {
+	padding: 0 3%;
+}
+#call-i input {
+	width: 99%;
+	border: solid 1px black;
+	font-size: 1.2rem;
+	margin-top: 2%;
+	
+}
+
+#home-pp {
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+	margin: 2% 0;
+}
+#home-ppp {
+	font-size: 1rem;
+	font-family: "微软雅黑";
+	padding-left: 3%;
+	margin: 0 0 2% 0;
+}
+
+
+#sub-d {
+	text-align: center;
+}
+#sub {
+	width: 70%;
+	height: 2rem;
+	color: white;
+	background: blue;
+}
